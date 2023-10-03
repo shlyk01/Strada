@@ -31,11 +31,24 @@
 // console.log(Number(undefined)) // NaN
 // console.log(Number('Hello')) // NaN
 
-console.log(typeof(true)) // Boolean
-console.log(typeof(123)) // Number
-console.log(typeof('Hello')) // String
-console.log(typeof(undefined)) // undefined
-console.log(typeof(null)) // null
-console.log(typeof(NaN)) // Number
-console.log(typeof(Infinity)) // Number
-console.log(typeof(-Infinity)) // Number
+// console.log(typeof(true)) // Boolean
+// console.log(typeof(123)) // Number
+// console.log(typeof('Hello')) // String
+// console.log(typeof(undefined)) // undefined
+// console.log(typeof(null)) // null
+// console.log(typeof(NaN)) // Number
+// console.log(typeof(Infinity)) // Number
+// console.log(typeof(-Infinity)) // Number
+
+// console.log(3 + 4) // 7 (Сумма)
+// console.log(8 - 4) // 4 (Вычитание)
+// console.log(2 * 5) // 10 (Умножение)
+// console.log(10 / 2) // 5 (Деление)
+// console.log(5 ** 2) // 25 (Возведение в степень)
+// console.log(9 % 2) // 1 (Остаток после деления)
+let i = 5
+i++ //увеличивает переменную на 1
+console.log(i) // 6
+let c = 5
+c-- // Уменьшает переменную на 1
+console.log(c) // 4
