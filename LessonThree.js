@@ -49,5 +49,38 @@
 // }else{
 //     alert('не корректный диалог')
 // }
-let message = (1 > 3) ? "Больше" : "Меньше";
-alert(message)
+// let firstName;
+// let lastName;
+// let nickName = 'Суперкодер';
+// alert(firstName || lastName || nickName || "аноним")
+// true || alert ('никогда не сработает') // оператор останавливает выполнение т.к в первом аругменте находит true
+// false || alert('сработает') // возвращает последний ложным аргумент 
+// console.log(1 && 2 && 3 && true)
+// let age = prompt("укажите свой возраст")
+// if(age >= 14 && age <= 90){
+//     console.log('верно')
+// }
+// let age = prompt('Укажите свой возраст')
+//     if(!(age >= 14 && age <= 90)){
+//         alert('Добро пожаловать')
+//     }
+// alert(age < 14 || age > 90)
+// console.log( !1 ) // 0 -> false 
+// console.log(!false) // true
+
+let message = prompt("Кто там?")
+if(message === 'Админ'){
+    let pass = prompt("Пароль?")
+    if(pass === "Я главный"){
+        alert("Здравствуйте!")
+    }else if(pass === "" || pass === null){
+        alert("Отменено")
+    }else{
+        alert("Неверный пароль")
+    }
+    
+}else if(message === "" || pass === null ){
+        alert("Отменено")
+}else{
+        alert("Я вас не знаю")
+}
