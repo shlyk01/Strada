@@ -26,7 +26,6 @@ function calc (operation, a, b){
         return a - b
     }
 }
-// alert(calc('add', 5, 3))
-// alert(calc('multi', 9, 6))
-// alert(calc('substract', 10, 4))
-console.log(calc('add', 4, 3))
+alert(calc('add', 5, 3))
+alert(calc('multi', 9, 6))
+alert(calc('substract', 10, 4))
